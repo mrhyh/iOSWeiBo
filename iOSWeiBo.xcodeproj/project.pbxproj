@@ -13,6 +13,11 @@
 		EB0300A01CA11DBF005AA01B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB03009E1CA11DBF005AA01B /* Main.storyboard */; };
 		EB0300A21CA11DBF005AA01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0300A11CA11DBF005AA01B /* Assets.xcassets */; };
 		EB0300A51CA11DBF005AA01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0300A31CA11DBF005AA01B /* LaunchScreen.storyboard */; };
+		EB0300B11CA11ED2005AA01B /* Discover(广场) in Resources */ = {isa = PBXBuildFile; fileRef = EB0300AC1CA11ED2005AA01B /* Discover(广场) */; };
+		EB0300B21CA11ED2005AA01B /* Home(首页) in Resources */ = {isa = PBXBuildFile; fileRef = EB0300AD1CA11ED2005AA01B /* Home(首页) */; };
+		EB0300B31CA11ED2005AA01B /* Main(主要) in Resources */ = {isa = PBXBuildFile; fileRef = EB0300AE1CA11ED2005AA01B /* Main(主要) */; };
+		EB0300B41CA11ED2005AA01B /* Me(我) in Resources */ = {isa = PBXBuildFile; fileRef = EB0300AF1CA11ED2005AA01B /* Me(我) */; };
+		EB0300B51CA11ED2005AA01B /* Message(消息) in Resources */ = {isa = PBXBuildFile; fileRef = EB0300B01CA11ED2005AA01B /* Message(消息) */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		EB0300A11CA11DBF005AA01B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB0300A41CA11DBF005AA01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB0300A61CA11DBF005AA01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0300AC1CA11ED2005AA01B /* Discover(广场) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Discover(广场)"; sourceTree = "<group>"; };
+		EB0300AD1CA11ED2005AA01B /* Home(首页) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Home(首页)"; sourceTree = "<group>"; };
+		EB0300AE1CA11ED2005AA01B /* Main(主要) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Main(主要)"; sourceTree = "<group>"; };
+		EB0300AF1CA11ED2005AA01B /* Me(我) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Me(我)"; sourceTree = "<group>"; };
+		EB0300B01CA11ED2005AA01B /* Message(消息) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Message(消息)"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 		EB0300941CA11DBF005AA01B /* iOSWeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				EB0300AC1CA11ED2005AA01B /* Discover(广场) */,
+				EB0300AD1CA11ED2005AA01B /* Home(首页) */,
+				EB0300AE1CA11ED2005AA01B /* Main(主要) */,
+				EB0300AF1CA11ED2005AA01B /* Me(我) */,
+				EB0300B01CA11ED2005AA01B /* Message(消息) */,
 				EB0300981CA11DBF005AA01B /* AppDelegate.h */,
 				EB0300991CA11DBF005AA01B /* AppDelegate.m */,
 				EB03009B1CA11DBF005AA01B /* ViewController.h */,
@@ -136,8 +151,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0300B51CA11ED2005AA01B /* Message(消息) in Resources */,
 				EB0300A51CA11DBF005AA01B /* LaunchScreen.storyboard in Resources */,
+				EB0300B21CA11ED2005AA01B /* Home(首页) in Resources */,
+				EB0300B11CA11ED2005AA01B /* Discover(广场) in Resources */,
+				EB0300B41CA11ED2005AA01B /* Me(我) in Resources */,
 				EB0300A21CA11DBF005AA01B /* Assets.xcassets in Resources */,
+				EB0300B31CA11ED2005AA01B /* Main(主要) in Resources */,
 				EB0300A01CA11DBF005AA01B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
