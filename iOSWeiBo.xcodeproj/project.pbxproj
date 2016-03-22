@@ -13,11 +13,12 @@
 		EB0300A01CA11DBF005AA01B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB03009E1CA11DBF005AA01B /* Main.storyboard */; };
 		EB0300A21CA11DBF005AA01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0300A11CA11DBF005AA01B /* Assets.xcassets */; };
 		EB0300A51CA11DBF005AA01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0300A31CA11DBF005AA01B /* LaunchScreen.storyboard */; };
-		EB0300B11CA11ED2005AA01B /* Discover(广场) in Resources */ = {isa = PBXBuildFile; fileRef = EB0300AC1CA11ED2005AA01B /* Discover(广场) */; };
-		EB0300B21CA11ED2005AA01B /* Home(首页) in Resources */ = {isa = PBXBuildFile; fileRef = EB0300AD1CA11ED2005AA01B /* Home(首页) */; };
-		EB0300B31CA11ED2005AA01B /* Main(主要) in Resources */ = {isa = PBXBuildFile; fileRef = EB0300AE1CA11ED2005AA01B /* Main(主要) */; };
-		EB0300B41CA11ED2005AA01B /* Me(我) in Resources */ = {isa = PBXBuildFile; fileRef = EB0300AF1CA11ED2005AA01B /* Me(我) */; };
-		EB0300B51CA11ED2005AA01B /* Message(消息) in Resources */ = {isa = PBXBuildFile; fileRef = EB0300B01CA11ED2005AA01B /* Message(消息) */; };
+		EB0FCADD1CA12B4100011002 /* YLTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCADC1CA12B4100011002 /* YLTabBarButton.m */; };
+		EB0FCAE01CA12BD000011002 /* YLBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCADF1CA12BD000011002 /* YLBadgeButton.m */; };
+		EB0FCAEE1CA130B700011002 /* UIImage+YL.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCAED1CA130B700011002 /* UIImage+YL.m */; };
+		EB868E7F1CA1238600C0C82E /* YLTabbarC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB868E7C1CA1238600C0C82E /* YLTabbarC.m */; };
+		EB868E821CA123A600C0C82E /* YLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EB868E811CA123A600C0C82E /* YLTabBar.m */; };
+		EB9FA1341CA173E70081010D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA1321CA173E70081010D /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +32,19 @@
 		EB0300A11CA11DBF005AA01B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB0300A41CA11DBF005AA01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB0300A61CA11DBF005AA01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB0300AC1CA11ED2005AA01B /* Discover(广场) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Discover(广场)"; sourceTree = "<group>"; };
-		EB0300AD1CA11ED2005AA01B /* Home(首页) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Home(首页)"; sourceTree = "<group>"; };
-		EB0300AE1CA11ED2005AA01B /* Main(主要) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Main(主要)"; sourceTree = "<group>"; };
-		EB0300AF1CA11ED2005AA01B /* Me(我) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Me(我)"; sourceTree = "<group>"; };
-		EB0300B01CA11ED2005AA01B /* Message(消息) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Message(消息)"; sourceTree = "<group>"; };
+		EB0FCADB1CA12B4100011002 /* YLTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabBarButton.h; sourceTree = "<group>"; };
+		EB0FCADC1CA12B4100011002 /* YLTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTabBarButton.m; sourceTree = "<group>"; };
+		EB0FCADE1CA12BD000011002 /* YLBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBadgeButton.h; sourceTree = "<group>"; };
+		EB0FCADF1CA12BD000011002 /* YLBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBadgeButton.m; sourceTree = "<group>"; };
+		EB0FCAEC1CA130B700011002 /* UIImage+YL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YL.h"; sourceTree = "<group>"; };
+		EB0FCAED1CA130B700011002 /* UIImage+YL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YL.m"; sourceTree = "<group>"; };
+		EB868E7B1CA1238600C0C82E /* YLTabbarC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabbarC.h; sourceTree = "<group>"; };
+		EB868E7C1CA1238600C0C82E /* YLTabbarC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTabbarC.m; sourceTree = "<group>"; };
+		EB868E801CA123A600C0C82E /* YLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabBar.h; sourceTree = "<group>"; };
+		EB868E811CA123A600C0C82E /* YLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTabBar.m; sourceTree = "<group>"; };
+		EB9FA1311CA173E70081010D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EB9FA1321CA173E70081010D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		EB9FA1331CA173E70081010D /* YLCategoryUIViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCategoryUIViewExtension.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +77,12 @@
 		EB0300941CA11DBF005AA01B /* iOSWeiBo */ = {
 			isa = PBXGroup;
 			children = (
-				EB0300AC1CA11ED2005AA01B /* Discover(广场) */,
-				EB0300AD1CA11ED2005AA01B /* Home(首页) */,
-				EB0300AE1CA11ED2005AA01B /* Main(主要) */,
-				EB0300AF1CA11ED2005AA01B /* Me(我) */,
-				EB0300B01CA11ED2005AA01B /* Message(消息) */,
+				EB0300B61CA11FEE005AA01B /* Discover(广场) */,
+				EB0300B71CA11FEE005AA01B /* Home(首页) */,
+				EB0300B81CA11FEE005AA01B /* Main(主要) */,
+				EB0300B91CA11FEE005AA01B /* Me(我) */,
+				EB0300BA1CA11FEE005AA01B /* Message(消息) */,
+				EB0FCAE61CA1307C00011002 /* Category */,
 				EB0300981CA11DBF005AA01B /* AppDelegate.h */,
 				EB0300991CA11DBF005AA01B /* AppDelegate.m */,
 				EB03009B1CA11DBF005AA01B /* ViewController.h */,
@@ -92,6 +102,101 @@
 				EB0300961CA11DBF005AA01B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB0300B61CA11FEE005AA01B /* Discover(广场) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Discover(广场)";
+			sourceTree = "<group>";
+		};
+		EB0300B71CA11FEE005AA01B /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		EB0300B81CA11FEE005AA01B /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				EB868E7A1CA1238600C0C82E /* Controller */,
+				EB868E7D1CA1238600C0C82E /* Model */,
+				EB868E7E1CA1238600C0C82E /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		EB0300B91CA11FEE005AA01B /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Me(我)";
+			sourceTree = "<group>";
+		};
+		EB0300BA1CA11FEE005AA01B /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		EB0FCAE61CA1307C00011002 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EB9FA1301CA173E70081010D /* UIView+Extension */,
+				EB0FCAEB1CA130B700011002 /* UIImage+YL */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EB0FCAEB1CA130B700011002 /* UIImage+YL */ = {
+			isa = PBXGroup;
+			children = (
+				EB0FCAEC1CA130B700011002 /* UIImage+YL.h */,
+				EB0FCAED1CA130B700011002 /* UIImage+YL.m */,
+			);
+			path = "UIImage+YL";
+			sourceTree = "<group>";
+		};
+		EB868E7A1CA1238600C0C82E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB868E7B1CA1238600C0C82E /* YLTabbarC.h */,
+				EB868E7C1CA1238600C0C82E /* YLTabbarC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB868E7D1CA1238600C0C82E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB868E7E1CA1238600C0C82E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB868E801CA123A600C0C82E /* YLTabBar.h */,
+				EB868E811CA123A600C0C82E /* YLTabBar.m */,
+				EB0FCADB1CA12B4100011002 /* YLTabBarButton.h */,
+				EB0FCADC1CA12B4100011002 /* YLTabBarButton.m */,
+				EB0FCADE1CA12BD000011002 /* YLBadgeButton.h */,
+				EB0FCADF1CA12BD000011002 /* YLBadgeButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB9FA1301CA173E70081010D /* UIView+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EB9FA1311CA173E70081010D /* UIView+Extension.h */,
+				EB9FA1321CA173E70081010D /* UIView+Extension.m */,
+				EB9FA1331CA173E70081010D /* YLCategoryUIViewExtension.h */,
+			);
+			path = "UIView+Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,13 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB0300B51CA11ED2005AA01B /* Message(消息) in Resources */,
 				EB0300A51CA11DBF005AA01B /* LaunchScreen.storyboard in Resources */,
-				EB0300B21CA11ED2005AA01B /* Home(首页) in Resources */,
-				EB0300B11CA11ED2005AA01B /* Discover(广场) in Resources */,
-				EB0300B41CA11ED2005AA01B /* Me(我) in Resources */,
 				EB0300A21CA11DBF005AA01B /* Assets.xcassets in Resources */,
-				EB0300B31CA11ED2005AA01B /* Main(主要) in Resources */,
 				EB0300A01CA11DBF005AA01B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,8 +269,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9FA1341CA173E70081010D /* UIView+Extension.m in Sources */,
+				EB0FCAEE1CA130B700011002 /* UIImage+YL.m in Sources */,
 				EB03009D1CA11DBF005AA01B /* ViewController.m in Sources */,
+				EB0FCAE01CA12BD000011002 /* YLBadgeButton.m in Sources */,
+				EB868E821CA123A600C0C82E /* YLTabBar.m in Sources */,
+				EB0FCADD1CA12B4100011002 /* YLTabBarButton.m in Sources */,
 				EB03009A1CA11DBF005AA01B /* AppDelegate.m in Sources */,
+				EB868E7F1CA1238600C0C82E /* YLTabbarC.m in Sources */,
 				EB0300971CA11DBF005AA01B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ylgwhyh.iOSWeiBo;
+				PRODUCT_BUNDLE_IDENTIFIER = comylgwhyh.iOSWeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -294,7 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ylgwhyh.iOSWeiBo;
+				PRODUCT_BUNDLE_IDENTIFIER = comylgwhyh.iOSWeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -318,6 +424,7 @@
 				EB0300AB1CA11DBF005AA01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F3934A1493CA41D1463D49A5260809683902E9D5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F3934A1493CA41D1463D49A5260809683902E9D5" : 0,
+    "BEB587085245BC31747B8A978DCEAE8DC68A53ED" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CB88BB03-BD0F-4C1E-A8ED-F8EE57CB2A29",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F3934A1493CA41D1463D49A5260809683902E9D5" : "iOSWeiBo\/",
+    "BEB587085245BC31747B8A978DCEAE8DC68A53ED" : "..\/Github%E4%B8%AA%E4%BA%BA%E9%9B%86%E5%90%88\/iOSCategoriesCollection"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iOSWeiBo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSWeiBo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mrhyh\/iOSCategoriesCollection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BEB587085245BC31747B8A978DCEAE8DC68A53ED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mrhyh\/iOSWeiBo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F3934A1493CA41D1463D49A5260809683902E9D5"
+    }
+  ]
+}
