@@ -16,9 +16,17 @@
 		EB0FCADD1CA12B4100011002 /* YLTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCADC1CA12B4100011002 /* YLTabBarButton.m */; };
 		EB0FCAE01CA12BD000011002 /* YLBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCADF1CA12BD000011002 /* YLBadgeButton.m */; };
 		EB0FCAEE1CA130B700011002 /* UIImage+YL.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCAED1CA130B700011002 /* UIImage+YL.m */; };
+		EB2980821CA420E7008DB6BB /* new_feature_1-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB29807F1CA420E7008DB6BB /* new_feature_1-568h@2x.png */; };
+		EB2980831CA420E7008DB6BB /* new_feature_2-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2980801CA420E7008DB6BB /* new_feature_2-568h@2x.png */; };
+		EB2980841CA420E7008DB6BB /* new_feature_3-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2980811CA420E7008DB6BB /* new_feature_3-568h@2x.png */; };
+		EB2980871CA423DD008DB6BB /* YLMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2980861CA423DD008DB6BB /* YLMeVC.m */; };
 		EB868E7F1CA1238600C0C82E /* YLTabbarC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB868E7C1CA1238600C0C82E /* YLTabbarC.m */; };
 		EB868E821CA123A600C0C82E /* YLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EB868E811CA123A600C0C82E /* YLTabBar.m */; };
 		EB9FA1341CA173E70081010D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA1321CA173E70081010D /* UIView+Extension.m */; };
+		EB9FA1371CA2CE4A0081010D /* YLHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA1361CA2CE4A0081010D /* YLHomeVC.m */; };
+		EB9FA13A1CA2CE690081010D /* YLDiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA1391CA2CE690081010D /* YLDiscoverVC.m */; };
+		EB9FA1401CA2CEB00081010D /* YLMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA13F1CA2CEB00081010D /* YLMessageVC.m */; };
+		EB9FA1431CA2D37D0081010D /* YLNavigationC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA1421CA2D37D0081010D /* YLNavigationC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,13 +46,27 @@
 		EB0FCADF1CA12BD000011002 /* YLBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBadgeButton.m; sourceTree = "<group>"; };
 		EB0FCAEC1CA130B700011002 /* UIImage+YL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YL.h"; sourceTree = "<group>"; };
 		EB0FCAED1CA130B700011002 /* UIImage+YL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YL.m"; sourceTree = "<group>"; };
+		EB29807F1CA420E7008DB6BB /* new_feature_1-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_1-568h@2x.png"; sourceTree = "<group>"; };
+		EB2980801CA420E7008DB6BB /* new_feature_2-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_2-568h@2x.png"; sourceTree = "<group>"; };
+		EB2980811CA420E7008DB6BB /* new_feature_3-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_3-568h@2x.png"; sourceTree = "<group>"; };
+		EB2980851CA423DD008DB6BB /* YLMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMeVC.h; sourceTree = "<group>"; };
+		EB2980861CA423DD008DB6BB /* YLMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMeVC.m; sourceTree = "<group>"; };
 		EB868E7B1CA1238600C0C82E /* YLTabbarC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabbarC.h; sourceTree = "<group>"; };
 		EB868E7C1CA1238600C0C82E /* YLTabbarC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTabbarC.m; sourceTree = "<group>"; };
 		EB868E801CA123A600C0C82E /* YLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabBar.h; sourceTree = "<group>"; };
 		EB868E811CA123A600C0C82E /* YLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTabBar.m; sourceTree = "<group>"; };
+		EB8CBF011CA43F0B007544BB /* YLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCommon.h; sourceTree = "<group>"; };
 		EB9FA1311CA173E70081010D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		EB9FA1321CA173E70081010D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		EB9FA1331CA173E70081010D /* YLCategoryUIViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCategoryUIViewExtension.h; sourceTree = "<group>"; };
+		EB9FA1351CA2CE4A0081010D /* YLHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLHomeVC.h; sourceTree = "<group>"; };
+		EB9FA1361CA2CE4A0081010D /* YLHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLHomeVC.m; sourceTree = "<group>"; };
+		EB9FA1381CA2CE690081010D /* YLDiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDiscoverVC.h; sourceTree = "<group>"; };
+		EB9FA1391CA2CE690081010D /* YLDiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDiscoverVC.m; sourceTree = "<group>"; };
+		EB9FA13E1CA2CEB00081010D /* YLMessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMessageVC.h; sourceTree = "<group>"; };
+		EB9FA13F1CA2CEB00081010D /* YLMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMessageVC.m; sourceTree = "<group>"; };
+		EB9FA1411CA2D37D0081010D /* YLNavigationC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLNavigationC.h; sourceTree = "<group>"; };
+		EB9FA1421CA2D37D0081010D /* YLNavigationC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLNavigationC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,7 @@
 		EB0300941CA11DBF005AA01B /* iOSWeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				EB8CBF011CA43F0B007544BB /* YLCommon.h */,
 				EB0300B61CA11FEE005AA01B /* Discover(广场) */,
 				EB0300B71CA11FEE005AA01B /* Home(首页) */,
 				EB0300B81CA11FEE005AA01B /* Main(主要) */,
@@ -99,6 +122,9 @@
 		EB0300951CA11DBF005AA01B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB29807F1CA420E7008DB6BB /* new_feature_1-568h@2x.png */,
+				EB2980801CA420E7008DB6BB /* new_feature_2-568h@2x.png */,
+				EB2980811CA420E7008DB6BB /* new_feature_3-568h@2x.png */,
 				EB0300961CA11DBF005AA01B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -107,6 +133,8 @@
 		EB0300B61CA11FEE005AA01B /* Discover(广场) */ = {
 			isa = PBXGroup;
 			children = (
+				EB9FA1381CA2CE690081010D /* YLDiscoverVC.h */,
+				EB9FA1391CA2CE690081010D /* YLDiscoverVC.m */,
 			);
 			path = "Discover(广场)";
 			sourceTree = "<group>";
@@ -114,6 +142,8 @@
 		EB0300B71CA11FEE005AA01B /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				EB9FA1351CA2CE4A0081010D /* YLHomeVC.h */,
+				EB9FA1361CA2CE4A0081010D /* YLHomeVC.m */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -131,6 +161,8 @@
 		EB0300B91CA11FEE005AA01B /* Me(我) */ = {
 			isa = PBXGroup;
 			children = (
+				EB2980851CA423DD008DB6BB /* YLMeVC.h */,
+				EB2980861CA423DD008DB6BB /* YLMeVC.m */,
 			);
 			path = "Me(我)";
 			sourceTree = "<group>";
@@ -138,6 +170,8 @@
 		EB0300BA1CA11FEE005AA01B /* Message(消息) */ = {
 			isa = PBXGroup;
 			children = (
+				EB9FA13E1CA2CEB00081010D /* YLMessageVC.h */,
+				EB9FA13F1CA2CEB00081010D /* YLMessageVC.m */,
 			);
 			path = "Message(消息)";
 			sourceTree = "<group>";
@@ -165,6 +199,8 @@
 			children = (
 				EB868E7B1CA1238600C0C82E /* YLTabbarC.h */,
 				EB868E7C1CA1238600C0C82E /* YLTabbarC.m */,
+				EB9FA1411CA2D37D0081010D /* YLNavigationC.h */,
+				EB9FA1421CA2D37D0081010D /* YLNavigationC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -230,6 +266,7 @@
 				TargetAttributes = {
 					EB0300911CA11DBF005AA01B = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VD58PNDPW6;
 					};
 				};
 			};
@@ -257,8 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0300A51CA11DBF005AA01B /* LaunchScreen.storyboard in Resources */,
+				EB2980831CA420E7008DB6BB /* new_feature_2-568h@2x.png in Resources */,
 				EB0300A21CA11DBF005AA01B /* Assets.xcassets in Resources */,
 				EB0300A01CA11DBF005AA01B /* Main.storyboard in Resources */,
+				EB2980821CA420E7008DB6BB /* new_feature_1-568h@2x.png in Resources */,
+				EB2980841CA420E7008DB6BB /* new_feature_3-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,12 +311,17 @@
 			files = (
 				EB9FA1341CA173E70081010D /* UIView+Extension.m in Sources */,
 				EB0FCAEE1CA130B700011002 /* UIImage+YL.m in Sources */,
+				EB9FA1371CA2CE4A0081010D /* YLHomeVC.m in Sources */,
+				EB2980871CA423DD008DB6BB /* YLMeVC.m in Sources */,
 				EB03009D1CA11DBF005AA01B /* ViewController.m in Sources */,
 				EB0FCAE01CA12BD000011002 /* YLBadgeButton.m in Sources */,
+				EB9FA1431CA2D37D0081010D /* YLNavigationC.m in Sources */,
 				EB868E821CA123A600C0C82E /* YLTabBar.m in Sources */,
+				EB9FA13A1CA2CE690081010D /* YLDiscoverVC.m in Sources */,
 				EB0FCADD1CA12B4100011002 /* YLTabBarButton.m in Sources */,
 				EB03009A1CA11DBF005AA01B /* AppDelegate.m in Sources */,
 				EB868E7F1CA1238600C0C82E /* YLTabbarC.m in Sources */,
+				EB9FA1401CA2CEB00081010D /* YLMessageVC.m in Sources */,
 				EB0300971CA11DBF005AA01B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,7 +432,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOSWeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = comylgwhyh.iOSWeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -398,7 +445,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOSWeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = comylgwhyh.iOSWeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

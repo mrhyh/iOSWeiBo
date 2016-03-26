@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "YLTabBar.h"
+#import "YLTabBarC.h"
 
 @interface AppDelegate ()
 
@@ -15,10 +15,17 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     // Override point for customization after application launch.
-
+    application.statusBarHidden = YES;
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[YLTabbarC alloc] init];
+    
+    //[UIApplication sharedApplication].keyWindow.rootViewController = [[YLTabbarC alloc] init];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

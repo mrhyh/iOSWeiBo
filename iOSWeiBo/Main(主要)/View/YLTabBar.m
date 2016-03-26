@@ -33,7 +33,7 @@
     self = [super initWithFrame:frame];
     
     if(self){
-        self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"tabbar_background"]];
+        //self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"tabbar_background"]];
         
         // 添加一个加号按钮
         UIButton *plusBtn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -42,6 +42,7 @@
         [plusBtn setImage:[UIImage imageNamed:@"tabbar_compose_icon_add"] forState:UIControlStateNormal];
         [plusBtn setImage:[UIImage imageNamed:@"tabbar_compose_icon_add_highlighted"] forState:UIControlStateHighlighted];
         
+        plusBtn.bounds = CGRectMake(0, 0, plusBtn.currentBackgroundImage.size.width, plusBtn.currentBackgroundImage.size.height);
         [plusBtn addTarget:self action:@selector(plusBtnClick) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:plusBtn];
         self.plusBtn = plusBtn;

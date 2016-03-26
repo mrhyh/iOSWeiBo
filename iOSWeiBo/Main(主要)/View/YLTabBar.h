@@ -14,8 +14,6 @@
 @protocol YLTabBarDelegate <NSObject>
 
 @optional
-//- (void)tabBar:(IWTabBar *)tabBar didSelectedButtonFrom:(int)from to:(int)to;
-//- (void)tabBarDidClickedPlusButton:(IWTabBar *)tabBar;
 
 - (void)tabBar:(YLTabBar *)tabBar didSelectedButtonFrom:(NSInteger) from to:(NSInteger)to;
 - (void)tabBarDidClickedPlusButton:(YLTabBar *)tabBar;

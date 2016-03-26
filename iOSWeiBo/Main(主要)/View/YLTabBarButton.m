@@ -9,6 +9,7 @@
 #import "YLTabBarButton.h"
 #import "YLBadgeButton.h"
 #import "UIView+Extension.h"
+#import "YLCommon.h"
 
 // 图标的比例
 #define YLTabBarButtonImageRatio 0.6
@@ -16,7 +17,7 @@
 // 按钮的默认文字颜色
 #define  YLTabBarButtonTitleColor [UIColor whiteColor]
 // 按钮的选中文字颜色
-#define  YLTabBarButtonTitleSelectedColor  IWColor(248, 139, 0))
+#define  YLTabBarButtonTitleSelectedColor  RGB(248, 139, 0)
 
 @interface YLTabBarButton()
 
@@ -32,14 +33,14 @@
 - (id)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self){
+        
         self.imageView.contentMode = UIViewContentModeCenter;
         self.titleLabel.textAlignment = NSTextAlignmentCenter;
         self.titleLabel.font = [UIFont systemFontOfSize:11];
         [self setTitleColor:YLTabBarButtonTitleColor forState:UIControlStateNormal];
+        [self setTitleColor:YLTabBarButtonTitleSelectedColor forState:UIControlStateSelected];
         
-        [self setBackgroundImage:[UIImage imageNamed:@"tabbar_slider"] forState:UIControlStateSelected];
-        
-        //添加一个提醒数   字按钮
+        //添加一个提醒数字按钮
         YLBadgeButton *badgeBtn = [[YLBadgeButton alloc] init];
         badgeBtn.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin;
         self.badgeBtn = badgeBtn;
@@ -49,10 +50,13 @@
 }
 
 // 重写去掉高亮状态
+- (void)setHighlighted:(BOOL)highlighted{
+    
+}
 
-- (void)setHighlighted:(BOOL)highlighted{}
 // 内部图片的frame
 - (CGRect)imageRectForContentRect:(CGRect)contentRect{
+    
     CGFloat imageW = contentRect.size.width;
     CGFloat imageH = contentRect.size.height;
     
@@ -61,6 +65,7 @@
 
 // 内部文字的frame
 - (CGRect)titleRectForContentRect:(CGRect)contentRect{
+    
     CGFloat titleY = contentRect.size.height * YLTabBarButtonImageRatio;
     CGFloat titleW = contentRect.size.width;
     CGFloat titleH = contentRect.size.height - titleY;
@@ -77,26 +82,37 @@
     [item addObserver:self forKeyPath:@"title" options:0 context:nil];
     [item addObserver:self forKeyPath:@"image" options:0 context:nil];
     [item addObserver:self forKeyPath:@"selectedImage" options:0 context:nil];
+    
+    [self observeValueForKeyPath:nil ofObject:nil change:nil context:nil];
 }
 
 - (void)dealloc{
+    
     [self.item removeObserver:self forKeyPath:@"badgeValue"];
     [self.item removeObserver:self forKeyPath:@"title"];
     [self.item removeObserver:self forKeyPath:@"image"];
     [self.item removeObserver:self forKeyPath:@"selectedImage"];
 }
 
-
-- (void)attemptRecoveryFromError:(NSError *)error optionIndex:(NSUInteger)recoveryOptionIndex delegate:(id)delegate didRecoverSelector:(SEL)didRecoverSelector contextInfo:(void *)contextInfo{
+/**
+ *  监听到某个对象的属性改变了,就会调用
+ *
+ *  @param keyPath 属性名
+ *  @param object  哪个对象的属性被改变
+ *  @param change  属性发生的改变
+ */
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context{
     
     // 设置文字
     [self setTitle:self.item.title forState:UIControlStateSelected];
     [self setTitle:self.item.title forState:UIControlStateNormal];
     // 设置图片
-    [self setImage:self.item forState:UIControlStateNormal];
-    [self setImage:self.item forState:UIControlStateSelected];
+    [self setImage:self.item.image forState:UIControlStateNormal];
+    [self setImage:self.item.selectedImage forState:UIControlStateSelected];
+    
     // 设置提醒数字
     self.badgeBtn.badgeValue = self.item.badgeValue;
+    
     // 设置提醒数字的位置
     CGFloat badgeY = 5;
     CGFloat badgeX = self.width - self.badgeBtn.width - 10;
@@ -104,6 +120,5 @@
     badgeF.origin.x = badgeX;
     badgeF.origin.y = badgeY;
     self.badgeBtn.frame = badgeF;
-    
 }
 @end

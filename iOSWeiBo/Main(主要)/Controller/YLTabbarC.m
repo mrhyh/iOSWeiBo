@@ -8,6 +8,11 @@
 
 #import "YLTabbarC.h"
 #import "YLTabBar.h"
+#import "YLHomeVC.h"
+#import "YLDiscoverVC.h"
+#import "YLMeVC.h"
+#import "YLMessageVC.h"
+#import "YLNavigationC.h"
 
 @interface YLTabbarC ()<YLTabBarDelegate>
 
@@ -28,16 +33,80 @@
     [self setupAllChildViewControllers];
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    // 删除系统自动生成的UITabBarButton
+    for (UIView *child in self.tabBar.subviews){
+        if ([child isKindOfClass:[UIControl class]]){
+            [child removeFromSuperview];
+        }
+    }
+}
+
 - (void)setupTabbar{
+    
     YLTabBar *customTabbar = [[YLTabBar alloc] init];
     customTabbar.frame = self.tabBar.bounds;
     customTabbar.delegate = self;
-    [self.tabBar addSubview:customTabbar];
     _customTabBar = customTabbar;
-
+    [self.tabBar addSubview:_customTabBar];
 }
 
+/**
+ *  初始化所有的子控制器
+ */
 - (void)setupAllChildViewControllers{
+    
+    //1.首页
+    YLHomeVC *homeVC = [[YLHomeVC alloc] init];
+    [self setupChildViewController:homeVC title:@"首页" imageName:@"tabbar_home" selectedImageName:@"tabbar_home_selected"];
+    
+    //2.消息
+    YLMessageVC *messageVC = [[YLMessageVC alloc] init];
+    [self setupChildViewController:messageVC title:@"消息" imageName:@"tabbar_message_center" selectedImageName:@"tabbar_message_center_selected"];
+    
+    //3.广场
+    YLDiscoverVC *discoverVC = [[YLDiscoverVC alloc] init];
+    [self setupChildViewController:discoverVC title:@"广场" imageName:@"tabbar_discover" selectedImageName:@"tabbar_discover_selected"];
+    
+    //4.我
+    YLMeVC *meVC = [[YLMeVC alloc] init];
+    [self setupChildViewController:meVC title:@"我" imageName:@"tabbar_discover" selectedImageName:@"tabbar_profile_selected"];
+}
+
+/**
+ *  初始化一个子控制器
+ *
+ *  @param childVc           需要初始化的子控制器
+ *  @param title             标题
+ *  @param imageName         图标
+ *  @param selectedImageName 选中的图标
+ */
+- (void)setupChildViewController:(UIViewController *)childVc title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName{
+    
+    // 1.设置控制器的属性
+    childVc.title = title;
+    // 设置图标
+    childVc.tabBarItem.image = [UIImage imageNamed:imageName];
+    
+    // 设置选中的图标
+    childVc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImageName];
+    
+    // 2.包装一个导航控制器
+    YLNavigationC *navC = [[YLNavigationC alloc] initWithRootViewController:childVc];
+    [self addChildViewController:navC];
+    
+    // 3.添加tabbar内部的按钮
+    [self.customTabBar addTabBarButtonWithItem:childVc.tabBarItem];
+}
+
+#pragma mark YLTabBarDelegate
+- (void)tabBar:(YLTabBar *)tabBar didSelectedButtonFrom:(NSInteger)from to:(NSInteger)to{
+    self.selectedIndex = to;
+}
+
+- (void)tabBarDidClickedPlusButton:(YLTabBar *)tabBar{
     
 }
 
@@ -45,15 +114,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
