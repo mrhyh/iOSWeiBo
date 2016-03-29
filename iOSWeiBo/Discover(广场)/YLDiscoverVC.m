@@ -11,4 +11,17 @@
 
 @implementation YLDiscoverVC
 
+- (void)viewDidLoad{
+    [super viewDidLoad];
+}
+
+#pragma mark TableView Data Delegate
+
+- (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView{
+    return 0;
+}
+
+- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 0;
+}
 @end

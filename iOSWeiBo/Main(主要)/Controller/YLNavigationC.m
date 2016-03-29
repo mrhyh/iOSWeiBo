@@ -7,6 +7,7 @@
 //
 
 #import "YLNavigationC.h"
+#import "UIImage+YL.h"
 
 @interface YLNavigationC()
 
@@ -32,7 +33,7 @@
     UIBarButtonItem *barButtonItem = [UIBarButtonItem appearance];
     
     // 设置背景
-    [barButtonItem setBackgroundImage:[UIImage imageNamed:@"navigationbar_button_background"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    [barButtonItem setBackgroundImage:[UIImage resizedImageWithName:@"navigationbar_button_background"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
     [barButtonItem setBackgroundImage:[UIImage imageNamed:@"navigationbar_button_background_pushed"] forState:UIControlStateHighlighted barMetrics:UIBarMetricsDefault];
     [barButtonItem setBackgroundImage:[UIImage imageNamed:@"navigationbar_button_background_disable"] forState:UIControlStateDisabled barMetrics:UIBarMetricsDefault];
     

@@ -35,6 +35,7 @@
     if(self){
         //self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"tabbar_background"]];
         
+#warning TODO 这里弄得太复杂了
         // 添加一个加号按钮
         UIButton *plusBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [plusBtn setBackgroundImage:[UIImage imageNamed:@"tabbar_compose_button"] forState:UIControlStateNormal];

@@ -60,19 +60,23 @@
     
     //1.首页
     YLHomeVC *homeVC = [[YLHomeVC alloc] init];
+    homeVC.tabBarItem.badgeValue = @"N";
     [self setupChildViewController:homeVC title:@"首页" imageName:@"tabbar_home" selectedImageName:@"tabbar_home_selected"];
     
     //2.消息
     YLMessageVC *messageVC = [[YLMessageVC alloc] init];
+    messageVC.tabBarItem.badgeValue = @"N";
     [self setupChildViewController:messageVC title:@"消息" imageName:@"tabbar_message_center" selectedImageName:@"tabbar_message_center_selected"];
     
     //3.广场
     YLDiscoverVC *discoverVC = [[YLDiscoverVC alloc] init];
+    discoverVC.tabBarItem.badgeValue = @"N";
     [self setupChildViewController:discoverVC title:@"广场" imageName:@"tabbar_discover" selectedImageName:@"tabbar_discover_selected"];
     
     //4.我
     YLMeVC *meVC = [[YLMeVC alloc] init];
-    [self setupChildViewController:meVC title:@"我" imageName:@"tabbar_discover" selectedImageName:@"tabbar_profile_selected"];
+    meVC.tabBarItem.badgeValue = @"N";
+    [self setupChildViewController:meVC title:@"我" imageName:@"tabbar_profile" selectedImageName:@"tabbar_profile_selected"];
 }
 
 /**
@@ -91,8 +95,8 @@
     childVc.tabBarItem.image = [UIImage imageNamed:imageName];
     
     // 设置选中的图标
-    childVc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImageName];
-    
+    UIImage *selectImage = [UIImage imageNamed:selectedImageName];
+    childVc.tabBarItem.selectedImage = [selectImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     // 2.包装一个导航控制器
     YLNavigationC *navC = [[YLNavigationC alloc] initWithRootViewController:childVc];
     [self addChildViewController:navC];

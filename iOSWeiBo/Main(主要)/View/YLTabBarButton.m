@@ -11,11 +11,12 @@
 #import "UIView+Extension.h"
 #import "YLCommon.h"
 
-// 图标的比例
-#define YLTabBarButtonImageRatio 0.6
+// Button中图标和文字的位置比例
+#define YLTabBarButtonImageRatio -0.15
+#define YLTabBarButtonTitleRatio 0.6
 
 // 按钮的默认文字颜色
-#define  YLTabBarButtonTitleColor [UIColor whiteColor]
+#define  YLTabBarButtonTitleColor [UIColor grayColor]
 // 按钮的选中文字颜色
 #define  YLTabBarButtonTitleSelectedColor  RGB(248, 139, 0)
 
@@ -57,16 +58,19 @@
 // 内部图片的frame
 - (CGRect)imageRectForContentRect:(CGRect)contentRect{
     
+    CGFloat imageY = contentRect.size.height * YLTabBarButtonImageRatio;
+    
     CGFloat imageW = contentRect.size.width;
     CGFloat imageH = contentRect.size.height;
     
-    return CGRectMake(0, 0, imageW, imageH);
+    return CGRectMake(0, imageY, imageW, imageH);
 }
 
 // 内部文字的frame
 - (CGRect)titleRectForContentRect:(CGRect)contentRect{
     
-    CGFloat titleY = contentRect.size.height * YLTabBarButtonImageRatio;
+    CGFloat titleY = contentRect.size.height * YLTabBarButtonTitleRatio;
+
     CGFloat titleW = contentRect.size.width;
     CGFloat titleH = contentRect.size.height - titleY;
     
