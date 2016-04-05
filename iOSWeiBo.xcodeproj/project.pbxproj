@@ -27,6 +27,7 @@
 		EB9FA13A1CA2CE690081010D /* YLDiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA1391CA2CE690081010D /* YLDiscoverVC.m */; };
 		EB9FA1401CA2CEB00081010D /* YLMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA13F1CA2CEB00081010D /* YLMessageVC.m */; };
 		EB9FA1431CA2D37D0081010D /* YLNavigationC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA1421CA2D37D0081010D /* YLNavigationC.m */; };
+		EBCA85221CB3F55800435344 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCA85211CB3F55800435344 /* UIColor+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		EB9FA13F1CA2CEB00081010D /* YLMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMessageVC.m; sourceTree = "<group>"; };
 		EB9FA1411CA2D37D0081010D /* YLNavigationC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLNavigationC.h; sourceTree = "<group>"; };
 		EB9FA1421CA2D37D0081010D /* YLNavigationC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLNavigationC.m; sourceTree = "<group>"; };
+		EBCA85201CB3F55800435344 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		EBCA85211CB3F55800435344 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,7 @@
 		EB0FCAE61CA1307C00011002 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				EBCA851F1CB3F55800435344 /* UIColor+Extension */,
 				EB9FA1301CA173E70081010D /* UIView+Extension */,
 				EB0FCAEB1CA130B700011002 /* UIImage+YL */,
 			);
@@ -233,6 +237,15 @@
 				EB9FA1331CA173E70081010D /* YLCategoryUIViewExtension.h */,
 			);
 			path = "UIView+Extension";
+			sourceTree = "<group>";
+		};
+		EBCA851F1CB3F55800435344 /* UIColor+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EBCA85201CB3F55800435344 /* UIColor+Extension.h */,
+				EBCA85211CB3F55800435344 /* UIColor+Extension.m */,
+			);
+			path = "UIColor+Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +329,7 @@
 				EB03009D1CA11DBF005AA01B /* ViewController.m in Sources */,
 				EB0FCAE01CA12BD000011002 /* YLBadgeButton.m in Sources */,
 				EB9FA1431CA2D37D0081010D /* YLNavigationC.m in Sources */,
+				EBCA85221CB3F55800435344 /* UIColor+Extension.m in Sources */,
 				EB868E821CA123A600C0C82E /* YLTabBar.m in Sources */,
 				EB9FA13A1CA2CE690081010D /* YLDiscoverVC.m in Sources */,
 				EB0FCADD1CA12B4100011002 /* YLTabBarButton.m in Sources */,

@@ -8,6 +8,8 @@
 
 #import "YLNavigationC.h"
 #import "UIImage+YL.h"
+#import "YLCommon.h"
+#import "UIColor+Extension.h"
 
 @interface YLNavigationC()
 
@@ -22,7 +24,7 @@
     // 1.设置导航栏主题
     [self setupNavBarTheme];
     // 2.设置导航栏按钮主题
-    [self setupBarButtonItemTheme];
+   // [self setupBarButtonItemTheme];
 }
 
 /**
@@ -57,31 +59,46 @@
  */
 + (void)setupNavBarTheme{
     // 取出appearance对象
-    UINavigationBar *navBar = [UINavigationBar appearance];
+    //UINavigationBar *navBar = [UINavigationBar appearance];
 
-    // 设置背景
-    [navBar setBackgroundImage:[UIImage imageNamed:@"navigationbar_background"] forBarMetrics:UIBarMetricsDefault];
+    
+     /************ 控件外观设置 **************/
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
-    // 设置标题属性
-//    NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
-//    textAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
-//    textAttrs[NSShadowAttributeName] = [UIColor blackColor];
-//    textAttrs[NSFontAttributeName] = [UIFont boldSystemFontOfSize:19];
-//    [navBar setTitleTextAttributes:textAttrs];
+    //设置navigationBar背景和字体颜色
+    NSDictionary *navbarTitleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
+    [[UINavigationBar appearance] setTitleTextAttributes:navbarTitleTextAttributes];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     
-    NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
-    textAttrs[UITextAttributeTextColor] = [UIColor blackColor];
-    textAttrs[UITextAttributeTextShadowOffset] = [NSValue valueWithUIOffset:UIOffsetZero];
-    textAttrs[UITextAttributeFont] = [UIFont boldSystemFontOfSize:19];
-    [navBar setTitleTextAttributes:textAttrs];
+    [[UITabBar appearance] setTintColor:[UIColor colorWithHex:0x15A230]];
+    [[UITabBar appearance] setTintColor:[UIColor colorWithHex:0x15A230 alpha:0.5]];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithHex:0x15A230]} forState:UIControlStateSelected];
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor navigationbarColor]];
+    [[UITabBar appearance] setBarTintColor:[UIColor titleBarColor]];
+    
+    
+    //设置返回图片
+
+    
+//    [UISearchBar appearance].tintColor = [UIColor colorWithHex:0x15A230];
+//    [[UITextField appearanceWhenContainedIn:[UISearchBar class], nil] setCornerRadius:14.0];
+//    [[UITextField appearanceWhenContainedIn:[UISearchBar class], nil] setAlpha:0.6];
 }
 
+//重写此方法后Navigation的设定属性全不见了
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
     
-    if(self.viewControllers.count > 0){
-        viewController.hidesBottomBarWhenPushed = YES;
-    }
+//    if(self.viewControllers.count > 0){
+//        viewController.hidesBottomBarWhenPushed = YES;
+//    }
+//    
+//    viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:@"backImage" style:UIBarButtonItemStylePlain target:self action:@selector(didTapBackButton::)];
+   // viewController.navigationItem.leftBarButtonItem.image = [UIImage imageNamed:@"backImage"];
+  [super pushViewController:viewController animated:animated];
+}
+
+- (void)didTapBackButton:(UIViewController *)viewController animated:(BOOL)animated{
     
     [super pushViewController:viewController animated:animated];
 }
