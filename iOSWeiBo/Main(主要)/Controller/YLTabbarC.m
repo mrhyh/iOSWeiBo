@@ -111,7 +111,7 @@
 }
 
 - (void)tabBarDidClickedPlusButton:(YLTabBar *)tabBar{
-    
+    NSLog(@"tabBarDidClickedPlusButton");
 }
 
 - (void)didReceiveMemoryWarning {

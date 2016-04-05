@@ -50,8 +50,6 @@
     NSMutableDictionary *disableTextAttrs = [NSMutableDictionary dictionary];
     disableTextAttrs[UITextAttributeTextColor] =  [UIColor lightGrayColor];
     [barButtonItem setTitleTextAttributes:disableTextAttrs forState:UIControlStateDisabled];
-    
-    
 }
 
 /**

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YLHomeVC : UIViewController
+@interface YLHomeVC : UITableViewController
 
 @end

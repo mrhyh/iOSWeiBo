@@ -102,6 +102,7 @@
 		EB0300941CA11DBF005AA01B /* iOSWeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				EB5002B71CB4194600182525 /* Middle(中间) */,
 				EB8CBF011CA43F0B007544BB /* YLCommon.h */,
 				EB0300B61CA11FEE005AA01B /* Discover(广场) */,
 				EB0300B71CA11FEE005AA01B /* Home(首页) */,
@@ -196,6 +197,13 @@
 				EB0FCAED1CA130B700011002 /* UIImage+YL.m */,
 			);
 			path = "UIImage+YL";
+			sourceTree = "<group>";
+		};
+		EB5002B71CB4194600182525 /* Middle(中间) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Middle(中间)";
 			sourceTree = "<group>";
 		};
 		EB868E7A1CA1238600C0C82E /* Controller */ = {
