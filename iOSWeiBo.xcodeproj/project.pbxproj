@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		614B6711E1A263103E35380D /* libPods-iOSWeiBo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF6E8B6181F0A8E18D67C41 /* libPods-iOSWeiBo.a */; };
 		EB0300971CA11DBF005AA01B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0300961CA11DBF005AA01B /* main.m */; };
 		EB03009A1CA11DBF005AA01B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0300991CA11DBF005AA01B /* AppDelegate.m */; };
 		EB03009D1CA11DBF005AA01B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB03009C1CA11DBF005AA01B /* ViewController.m */; };
@@ -16,10 +17,14 @@
 		EB0FCADD1CA12B4100011002 /* YLTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCADC1CA12B4100011002 /* YLTabBarButton.m */; };
 		EB0FCAE01CA12BD000011002 /* YLBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCADF1CA12BD000011002 /* YLBadgeButton.m */; };
 		EB0FCAEE1CA130B700011002 /* UIImage+YL.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCAED1CA130B700011002 /* UIImage+YL.m */; };
+		EB1753591CB923A200A7B56F /* YLAppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1753581CB923A100A7B56F /* YLAppVersion.m */; };
+		EB17535E1CB9314900A7B56F /* YLBaseNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = EB17535D1CB9314900A7B56F /* YLBaseNetwork.m */; };
 		EB2980821CA420E7008DB6BB /* new_feature_1-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB29807F1CA420E7008DB6BB /* new_feature_1-568h@2x.png */; };
 		EB2980831CA420E7008DB6BB /* new_feature_2-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2980801CA420E7008DB6BB /* new_feature_2-568h@2x.png */; };
 		EB2980841CA420E7008DB6BB /* new_feature_3-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2980811CA420E7008DB6BB /* new_feature_3-568h@2x.png */; };
 		EB2980871CA423DD008DB6BB /* YLMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2980861CA423DD008DB6BB /* YLMeVC.m */; };
+		EB5002BA1CB41A3100182525 /* OptionButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5002B91CB41A3100182525 /* OptionButtonView.m */; };
+		EB5FBCBE1CB8F5A00010F175 /* SCNote.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5FBCBD1CB8F5A00010F175 /* SCNote.c */; };
 		EB868E7F1CA1238600C0C82E /* YLTabbarC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB868E7C1CA1238600C0C82E /* YLTabbarC.m */; };
 		EB868E821CA123A600C0C82E /* YLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EB868E811CA123A600C0C82E /* YLTabBar.m */; };
 		EB9FA1341CA173E70081010D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA1321CA173E70081010D /* UIView+Extension.m */; };
@@ -31,6 +36,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14461B9CAA84396D31A57CB6 /* Pods-iOSWeiBo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWeiBo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSWeiBo/Pods-iOSWeiBo.release.xcconfig"; sourceTree = "<group>"; };
+		1AF6E8B6181F0A8E18D67C41 /* libPods-iOSWeiBo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWeiBo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BD40F29E2B1A933A09CA10 /* Pods-iOSWeiBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWeiBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSWeiBo/Pods-iOSWeiBo.debug.xcconfig"; sourceTree = "<group>"; };
 		EB0300921CA11DBF005AA01B /* iOSWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0300961CA11DBF005AA01B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB0300981CA11DBF005AA01B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,11 +55,18 @@
 		EB0FCADF1CA12BD000011002 /* YLBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBadgeButton.m; sourceTree = "<group>"; };
 		EB0FCAEC1CA130B700011002 /* UIImage+YL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YL.h"; sourceTree = "<group>"; };
 		EB0FCAED1CA130B700011002 /* UIImage+YL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YL.m"; sourceTree = "<group>"; };
+		EB1753571CB923A100A7B56F /* YLAppVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAppVersion.h; sourceTree = "<group>"; };
+		EB1753581CB923A100A7B56F /* YLAppVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAppVersion.m; sourceTree = "<group>"; };
+		EB17535C1CB9314900A7B56F /* YLBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBaseNetwork.h; sourceTree = "<group>"; };
+		EB17535D1CB9314900A7B56F /* YLBaseNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBaseNetwork.m; sourceTree = "<group>"; };
 		EB29807F1CA420E7008DB6BB /* new_feature_1-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_1-568h@2x.png"; sourceTree = "<group>"; };
 		EB2980801CA420E7008DB6BB /* new_feature_2-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_2-568h@2x.png"; sourceTree = "<group>"; };
 		EB2980811CA420E7008DB6BB /* new_feature_3-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_3-568h@2x.png"; sourceTree = "<group>"; };
 		EB2980851CA423DD008DB6BB /* YLMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMeVC.h; sourceTree = "<group>"; };
 		EB2980861CA423DD008DB6BB /* YLMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMeVC.m; sourceTree = "<group>"; };
+		EB5002B81CB41A3100182525 /* OptionButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionButtonView.h; sourceTree = "<group>"; };
+		EB5002B91CB41A3100182525 /* OptionButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionButtonView.m; sourceTree = "<group>"; };
+		EB5FBCBD1CB8F5A00010F175 /* SCNote.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCNote.c; sourceTree = "<group>"; };
 		EB868E7B1CA1238600C0C82E /* YLTabbarC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabbarC.h; sourceTree = "<group>"; };
 		EB868E7C1CA1238600C0C82E /* YLTabbarC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTabbarC.m; sourceTree = "<group>"; };
 		EB868E801CA123A600C0C82E /* YLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabBar.h; sourceTree = "<group>"; };
@@ -77,17 +92,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				614B6711E1A263103E35380D /* libPods-iOSWeiBo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		607E4DDCF8A30CE6F03EDFFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78BD40F29E2B1A933A09CA10 /* Pods-iOSWeiBo.debug.xcconfig */,
+				14461B9CAA84396D31A57CB6 /* Pods-iOSWeiBo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		933D1A80C84C51850DED327C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AF6E8B6181F0A8E18D67C41 /* libPods-iOSWeiBo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB0300891CA11DBE005AA01B = {
 			isa = PBXGroup;
 			children = (
 				EB0300941CA11DBF005AA01B /* iOSWeiBo */,
 				EB0300931CA11DBF005AA01B /* Products */,
+				607E4DDCF8A30CE6F03EDFFA /* Pods */,
+				933D1A80C84C51850DED327C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +137,8 @@
 		EB0300941CA11DBF005AA01B /* iOSWeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				EB17535A1CB9310B00A7B56F /* Other */,
+				EB1753561CB9238300A7B56F /* 版本管理 */,
 				EB5002B71CB4194600182525 /* Middle(中间) */,
 				EB8CBF011CA43F0B007544BB /* YLCommon.h */,
 				EB0300B61CA11FEE005AA01B /* Discover(广场) */,
@@ -183,6 +220,7 @@
 		EB0FCAE61CA1307C00011002 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				EB5FBCBD1CB8F5A00010F175 /* SCNote.c */,
 				EBCA851F1CB3F55800435344 /* UIColor+Extension */,
 				EB9FA1301CA173E70081010D /* UIView+Extension */,
 				EB0FCAEB1CA130B700011002 /* UIImage+YL */,
@@ -199,9 +237,37 @@
 			path = "UIImage+YL";
 			sourceTree = "<group>";
 		};
+		EB1753561CB9238300A7B56F /* 版本管理 */ = {
+			isa = PBXGroup;
+			children = (
+				EB1753571CB923A100A7B56F /* YLAppVersion.h */,
+				EB1753581CB923A100A7B56F /* YLAppVersion.m */,
+			);
+			path = "版本管理";
+			sourceTree = "<group>";
+		};
+		EB17535A1CB9310B00A7B56F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EB17535B1CB9310B00A7B56F /* YLNetwork */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EB17535B1CB9310B00A7B56F /* YLNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				EB17535C1CB9314900A7B56F /* YLBaseNetwork.h */,
+				EB17535D1CB9314900A7B56F /* YLBaseNetwork.m */,
+			);
+			path = YLNetwork;
+			sourceTree = "<group>";
+		};
 		EB5002B71CB4194600182525 /* Middle(中间) */ = {
 			isa = PBXGroup;
 			children = (
+				EB5002B81CB41A3100182525 /* OptionButtonView.h */,
+				EB5002B91CB41A3100182525 /* OptionButtonView.m */,
 			);
 			path = "Middle(中间)";
 			sourceTree = "<group>";
@@ -263,9 +329,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB0300A91CA11DBF005AA01B /* Build configuration list for PBXNativeTarget "iOSWeiBo" */;
 			buildPhases = (
+				6BD6844CDFBAEF7F2DF8BF99 /* Check Pods Manifest.lock */,
 				EB03008E1CA11DBF005AA01B /* Sources */,
 				EB03008F1CA11DBF005AA01B /* Frameworks */,
 				EB0300901CA11DBF005AA01B /* Resources */,
+				7576C797C22057E0C15B98C1 /* Embed Pods Frameworks */,
+				2C3CB610E2B6527646BFBF7C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -325,6 +394,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C3CB610E2B6527646BFBF7C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSWeiBo/Pods-iOSWeiBo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD6844CDFBAEF7F2DF8BF99 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7576C797C22057E0C15B98C1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSWeiBo/Pods-iOSWeiBo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB03008E1CA11DBF005AA01B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -337,12 +454,16 @@
 				EB03009D1CA11DBF005AA01B /* ViewController.m in Sources */,
 				EB0FCAE01CA12BD000011002 /* YLBadgeButton.m in Sources */,
 				EB9FA1431CA2D37D0081010D /* YLNavigationC.m in Sources */,
+				EB1753591CB923A200A7B56F /* YLAppVersion.m in Sources */,
 				EBCA85221CB3F55800435344 /* UIColor+Extension.m in Sources */,
+				EB17535E1CB9314900A7B56F /* YLBaseNetwork.m in Sources */,
 				EB868E821CA123A600C0C82E /* YLTabBar.m in Sources */,
 				EB9FA13A1CA2CE690081010D /* YLDiscoverVC.m in Sources */,
 				EB0FCADD1CA12B4100011002 /* YLTabBarButton.m in Sources */,
 				EB03009A1CA11DBF005AA01B /* AppDelegate.m in Sources */,
 				EB868E7F1CA1238600C0C82E /* YLTabbarC.m in Sources */,
+				EB5FBCBE1CB8F5A00010F175 /* SCNote.c in Sources */,
+				EB5002BA1CB41A3100182525 /* OptionButtonView.m in Sources */,
 				EB9FA1401CA2CEB00081010D /* YLMessageVC.m in Sources */,
 				EB0300971CA11DBF005AA01B /* main.m in Sources */,
 			);
@@ -452,6 +573,7 @@
 		};
 		EB0300AA1CA11DBF005AA01B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78BD40F29E2B1A933A09CA10 /* Pods-iOSWeiBo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -465,6 +587,7 @@
 		};
 		EB0300AB1CA11DBF005AA01B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14461B9CAA84396D31A57CB6 /* Pods-iOSWeiBo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
