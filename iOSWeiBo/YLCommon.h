@@ -8,9 +8,15 @@
 
 #ifndef YLCommon_h
 #define YLCommon_h
-
-
 #endif /* Common_h */
+
+
+/*微博账号*/
+#define  WeiBoAppKey @"2458231384"
+#define  WeiBoAppSecret @"6341468f20fe0ab71003b3bfae0ee70c"
+#define  WeiBoRedirectURI @"http://www.umeng.com/social"
+#define  WeiBoLoginURL [NSString stringWithFormat:@"https://api.weibo.com/oauth2/authorize?client_id=%@&redirect_uri=%@",  WeiBoAppKey,WeiBoRedirectURI]
+
 
 // RGB颜色设定
 #define RGB(r, g, b) [UIColor colorWithRed:(r) / 255.0f green:(g) / 255.0f blue:(b) / 255.0f alpha:1]

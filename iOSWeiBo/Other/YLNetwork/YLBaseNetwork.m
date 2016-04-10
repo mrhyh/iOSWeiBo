@@ -18,7 +18,7 @@
           progress:(void(^)(NSProgress *))uploadProgress
    successCallBack:(NetworkSuccessCallBack)successCallBack
      errorCallBack:(NetworkErrorCallBack)errorCallBack
-         withStyle:(NetworkErrorInterceptStyle)NetworkErrorInterceptStyle{
+         withStyle:(NetworkErrorInterceptStyle)networkErrorInterceptStyle{
     
     //AFSecurityPolicy *securityPolicy = [AFSecurityPolicy defaultPolicy]; //https请求采用
     

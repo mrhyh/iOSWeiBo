@@ -19,12 +19,15 @@
 		EB0FCAEE1CA130B700011002 /* UIImage+YL.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCAED1CA130B700011002 /* UIImage+YL.m */; };
 		EB1753591CB923A200A7B56F /* YLAppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1753581CB923A100A7B56F /* YLAppVersion.m */; };
 		EB17535E1CB9314900A7B56F /* YLBaseNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = EB17535D1CB9314900A7B56F /* YLBaseNetwork.m */; };
+		EB1753621CB93BA800A7B56F /* SCNote.c in Sources */ = {isa = PBXBuildFile; fileRef = EB1753611CB93BA800A7B56F /* SCNote.c */; };
 		EB2980821CA420E7008DB6BB /* new_feature_1-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB29807F1CA420E7008DB6BB /* new_feature_1-568h@2x.png */; };
 		EB2980831CA420E7008DB6BB /* new_feature_2-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2980801CA420E7008DB6BB /* new_feature_2-568h@2x.png */; };
 		EB2980841CA420E7008DB6BB /* new_feature_3-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2980811CA420E7008DB6BB /* new_feature_3-568h@2x.png */; };
 		EB2980871CA423DD008DB6BB /* YLMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2980861CA423DD008DB6BB /* YLMeVC.m */; };
 		EB5002BA1CB41A3100182525 /* OptionButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5002B91CB41A3100182525 /* OptionButtonView.m */; };
-		EB5FBCBE1CB8F5A00010F175 /* SCNote.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5FBCBD1CB8F5A00010F175 /* SCNote.c */; };
+		EB677D8B1CBA1BDF00970644 /* NWOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = EB677D8A1CBA1BDF00970644 /* NWOAuth.m */; };
+		EB677D901CBA216F00970644 /* MBProgressHUD+YL.m in Sources */ = {isa = PBXBuildFile; fileRef = EB677D8E1CBA216F00970644 /* MBProgressHUD+YL.m */; };
+		EB677D911CBA216F00970644 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB677D8F1CBA216F00970644 /* MBProgressHUD.bundle */; };
 		EB868E7F1CA1238600C0C82E /* YLTabbarC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB868E7C1CA1238600C0C82E /* YLTabbarC.m */; };
 		EB868E821CA123A600C0C82E /* YLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EB868E811CA123A600C0C82E /* YLTabBar.m */; };
 		EB9FA1341CA173E70081010D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA1321CA173E70081010D /* UIView+Extension.m */; };
@@ -59,6 +62,7 @@
 		EB1753581CB923A100A7B56F /* YLAppVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAppVersion.m; sourceTree = "<group>"; };
 		EB17535C1CB9314900A7B56F /* YLBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBaseNetwork.h; sourceTree = "<group>"; };
 		EB17535D1CB9314900A7B56F /* YLBaseNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBaseNetwork.m; sourceTree = "<group>"; };
+		EB1753611CB93BA800A7B56F /* SCNote.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCNote.c; sourceTree = "<group>"; };
 		EB29807F1CA420E7008DB6BB /* new_feature_1-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_1-568h@2x.png"; sourceTree = "<group>"; };
 		EB2980801CA420E7008DB6BB /* new_feature_2-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_2-568h@2x.png"; sourceTree = "<group>"; };
 		EB2980811CA420E7008DB6BB /* new_feature_3-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_3-568h@2x.png"; sourceTree = "<group>"; };
@@ -66,7 +70,11 @@
 		EB2980861CA423DD008DB6BB /* YLMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMeVC.m; sourceTree = "<group>"; };
 		EB5002B81CB41A3100182525 /* OptionButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionButtonView.h; sourceTree = "<group>"; };
 		EB5002B91CB41A3100182525 /* OptionButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionButtonView.m; sourceTree = "<group>"; };
-		EB5FBCBD1CB8F5A00010F175 /* SCNote.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCNote.c; sourceTree = "<group>"; };
+		EB677D891CBA1BDF00970644 /* NWOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWOAuth.h; sourceTree = "<group>"; };
+		EB677D8A1CBA1BDF00970644 /* NWOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWOAuth.m; sourceTree = "<group>"; };
+		EB677D8D1CBA216F00970644 /* MBProgressHUD+YL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+YL.h"; sourceTree = "<group>"; };
+		EB677D8E1CBA216F00970644 /* MBProgressHUD+YL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+YL.m"; sourceTree = "<group>"; };
+		EB677D8F1CBA216F00970644 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		EB868E7B1CA1238600C0C82E /* YLTabbarC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabbarC.h; sourceTree = "<group>"; };
 		EB868E7C1CA1238600C0C82E /* YLTabbarC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTabbarC.m; sourceTree = "<group>"; };
 		EB868E801CA123A600C0C82E /* YLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabBar.h; sourceTree = "<group>"; };
@@ -137,10 +145,11 @@
 		EB0300941CA11DBF005AA01B /* iOSWeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				EB8CBF011CA43F0B007544BB /* YLCommon.h */,
+				EB1753611CB93BA800A7B56F /* SCNote.c */,
 				EB17535A1CB9310B00A7B56F /* Other */,
 				EB1753561CB9238300A7B56F /* 版本管理 */,
 				EB5002B71CB4194600182525 /* Middle(中间) */,
-				EB8CBF011CA43F0B007544BB /* YLCommon.h */,
 				EB0300B61CA11FEE005AA01B /* Discover(广场) */,
 				EB0300B71CA11FEE005AA01B /* Home(首页) */,
 				EB0300B81CA11FEE005AA01B /* Main(主要) */,
@@ -220,7 +229,7 @@
 		EB0FCAE61CA1307C00011002 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				EB5FBCBD1CB8F5A00010F175 /* SCNote.c */,
+				EB677D8C1CBA216F00970644 /* MBProgressHUD+YL */,
 				EBCA851F1CB3F55800435344 /* UIColor+Extension */,
 				EB9FA1301CA173E70081010D /* UIView+Extension */,
 				EB0FCAEB1CA130B700011002 /* UIImage+YL */,
@@ -249,6 +258,7 @@
 		EB17535A1CB9310B00A7B56F /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				EB677D871CBA1BDF00970644 /* Login */,
 				EB17535B1CB9310B00A7B56F /* YLNetwork */,
 			);
 			path = Other;
@@ -270,6 +280,33 @@
 				EB5002B91CB41A3100182525 /* OptionButtonView.m */,
 			);
 			path = "Middle(中间)";
+			sourceTree = "<group>";
+		};
+		EB677D871CBA1BDF00970644 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EB677D881CBA1BDF00970644 /* NWOAuth */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EB677D881CBA1BDF00970644 /* NWOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				EB677D891CBA1BDF00970644 /* NWOAuth.h */,
+				EB677D8A1CBA1BDF00970644 /* NWOAuth.m */,
+			);
+			path = NWOAuth;
+			sourceTree = "<group>";
+		};
+		EB677D8C1CBA216F00970644 /* MBProgressHUD+YL */ = {
+			isa = PBXGroup;
+			children = (
+				EB677D8D1CBA216F00970644 /* MBProgressHUD+YL.h */,
+				EB677D8E1CBA216F00970644 /* MBProgressHUD+YL.m */,
+				EB677D8F1CBA216F00970644 /* MBProgressHUD.bundle */,
+			);
+			path = "MBProgressHUD+YL";
 			sourceTree = "<group>";
 		};
 		EB868E7A1CA1238600C0C82E /* Controller */ = {
@@ -389,6 +426,7 @@
 				EB0300A01CA11DBF005AA01B /* Main.storyboard in Resources */,
 				EB2980821CA420E7008DB6BB /* new_feature_1-568h@2x.png in Resources */,
 				EB2980841CA420E7008DB6BB /* new_feature_3-568h@2x.png in Resources */,
+				EB677D911CBA216F00970644 /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,12 +487,15 @@
 			files = (
 				EB9FA1341CA173E70081010D /* UIView+Extension.m in Sources */,
 				EB0FCAEE1CA130B700011002 /* UIImage+YL.m in Sources */,
+				EB677D8B1CBA1BDF00970644 /* NWOAuth.m in Sources */,
 				EB9FA1371CA2CE4A0081010D /* YLHomeVC.m in Sources */,
 				EB2980871CA423DD008DB6BB /* YLMeVC.m in Sources */,
 				EB03009D1CA11DBF005AA01B /* ViewController.m in Sources */,
+				EB1753621CB93BA800A7B56F /* SCNote.c in Sources */,
 				EB0FCAE01CA12BD000011002 /* YLBadgeButton.m in Sources */,
 				EB9FA1431CA2D37D0081010D /* YLNavigationC.m in Sources */,
 				EB1753591CB923A200A7B56F /* YLAppVersion.m in Sources */,
+				EB677D901CBA216F00970644 /* MBProgressHUD+YL.m in Sources */,
 				EBCA85221CB3F55800435344 /* UIColor+Extension.m in Sources */,
 				EB17535E1CB9314900A7B56F /* YLBaseNetwork.m in Sources */,
 				EB868E821CA123A600C0C82E /* YLTabBar.m in Sources */,
@@ -462,7 +503,6 @@
 				EB0FCADD1CA12B4100011002 /* YLTabBarButton.m in Sources */,
 				EB03009A1CA11DBF005AA01B /* AppDelegate.m in Sources */,
 				EB868E7F1CA1238600C0C82E /* YLTabbarC.m in Sources */,
-				EB5FBCBE1CB8F5A00010F175 /* SCNote.c in Sources */,
 				EB5002BA1CB41A3100182525 /* OptionButtonView.m in Sources */,
 				EB9FA1401CA2CEB00081010D /* YLMessageVC.m in Sources */,
 				EB0300971CA11DBF005AA01B /* main.m in Sources */,
@@ -580,7 +620,7 @@
 				INFOPLIST_FILE = iOSWeiBo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = comylgwhyh.iOSWeiBo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylgwhyh.iOSWeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -594,7 +634,7 @@
 				INFOPLIST_FILE = iOSWeiBo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = comylgwhyh.iOSWeiBo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylgwhyh.iOSWeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
