@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ZSSRichTextEditor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script src="jquery-2.1.3.min.js"></script>
+    <script src="js-beautifier.js"></script>
+    <script src="underscore-min.js"></script>
+    <script src="shortcode.js"></script>
+    <script src="jquery.mobile-events.min.js"></script>
+    <script src="ZSSRichTextEditor.js"></script>
+    <script src="wpload.js"></script>
+    <script src="wpsave.js"></script>
+    <script src="rangy-core.js"></script>
+    <script src="rangy-classapplier.js"></script>
+    <script src="rangy-highlighter.js"></script>
+    <script src="rangy-selectionsaverestore.js"></script>
+    <script src="rangy-serializer.js"></script>
+    <script src="rangy-textrange.js"></script>
+      <script src="weico.js"></script>
+    <script>
+        // DRM: onLoad does not get called when offline, if there's remote content in the editor
+        // (such as remote images).  We use the 'ready' event for this reason.
+        //
+        $(document).ready(function() {
+            ZSSEditor.init();
+            ZSSEditor.domLoadedCallback();
+        });
+    </script>
+
+    <link rel="stylesheet" href="editor.css?1">
+    <link rel="stylesheet" href="editor-android.css">
+    <link rel="stylesheet" href="weico.css?1">
+
+  </head>
+  <body>
+      <div id="zss_field_cover">
+          <div class="cover_empty">
+              <div>
+                <img src="compose_cover_add.png" style="width:15px;height:15px" />
+                <span style="color:#d1d1d1">&nbsp;添加封面</span>
+              </div>
+          </div>
+          <div class="cover_show" style="display:none">
+          </div>
+      </div>
+      <div id="zss_field">
+          <div contenteditable="true" id="zss_field_title" class="field">
+          </div>
+
+          <div contenteditable="false" id="zss_field_writer" class="field" >
+            <div id="add_writer" style=><span style="color:#939393;">添加作者</span></div>
+            <div id="delete_writer" style="display:none;"><img src="compose_author_delete.png" style="width:10px;height:10px" /></div>
+          </div>
+
+          <div contenteditable="false" id="separatorDiv" style="height:1px;clear: both; border-bottom: solid #e5e5e5 1px;margin-top:0px;">
+              
+          </div>
+
+          <div style="display:none" contenteditable="false" id="zss_field_lead" class="field">
+          </div>
+           <p></p>
+          <div contenteditable="true" id="zss_field_content" class="field">
+          </div>
+          <div contenteditable="false" id="zss_field_footer" class="field">
+          </div>
+      </div>
+  </body>
+</html>

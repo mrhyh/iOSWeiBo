@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Bundle-Name: account
+Bundle-SymbolicName: account
+Export-Class: com.sina.weibo.account.business.AccountInterface
+Bundle-Activator: com.sina.weibo.account.business.AccountActivator

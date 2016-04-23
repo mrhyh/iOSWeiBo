@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Bundle-Name: borwser
+Bundle-SymbolicName: borwser
+Export-Class: com.sina.weibo.browser.WeiboBrowserFragment
+Require-Bundle: alipay

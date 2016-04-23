@@ -1,0 +1,350 @@
+.amc-p-reset {
+    margin: 0px;
+}
+
+.amc-hidden {
+    display: none;
+}
+
+.amc-body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.amc-nav {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    height: 41px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #232735;
+}
+
+.amc-nav-l-box {
+    width: 60px;
+    padding-top: 1.5px;
+    display: -webkit-box;
+    -webkit-box-align: center;
+}
+
+.amc-nav-l-img {
+    margin-left: -2px;
+}
+
+.amc-nav-l-text {
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 6px;
+}
+
+.amc-nav-m-box {
+    width: 156px;
+    -webkit-box-flex: 1.0;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+
+.amc-nav-m-text {
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.amc-nav-r-box {
+    width: 60px;
+    height: 30px;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: end;
+}
+
+.amc-nav-box-android {
+    display: -webkit-box;
+    height: 48px;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    background-color: #232735;
+}
+
+.amc-nav-title-android {
+    -webkit-box-flex: 1;
+    display: -webkit-box;
+    -webkit-box-align: center;
+}
+
+.amc-nav-back-box-android {
+    display: -webkit-box;
+    width: 48px;
+    -webkit-box-align: center;
+    height: 48px;
+}
+
+.amc-nav-back-box-android:active {
+    background-color: #1d202f;
+}
+
+.amc-nav-l-img-android {
+    margin-left: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.amc-nav-r-box-android {
+    padding-left: 17px;
+    padding-right: 17px;
+    height: 48px;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: end;
+}
+
+.amc-nav-r-box-android:active {
+    background-color: #1d202f;
+}
+
+.amc-nav-line-android {
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    margin-right: 16px;
+    background-color: #191d2b;
+}
+
+.amc-nav-m-text-android {
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.amc-pd {
+    padding: 15px;
+}
+.amc-pd-t {
+	padding-top: 15px;
+}
+.amc-pd-t-s {
+	padding-top: 10px;
+}
+.amc-pd-l {
+	padding-left: 15px;
+}
+.amc-pd-lr {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.amc-pd-lr-xs {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.amc-pd-l-xs {
+    padding-left: 5px;
+}
+.amc-margin-l {
+	margin-left: 15px;
+}
+.amc-margin-t {
+	margin-top: 15px;
+}
+.amc-margin-b-l {
+    margin-bottom: 20px;
+}
+.amc-margin-t-s {
+	margin-top: 8px;
+}
+.amc-margin-t-xxxs {
+    margin-top: 3px;
+}
+.amc-margin-lr-s {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.amc-margin-l-s {
+    margin-left: 10px;
+}
+.amc-box {
+    display: -webkit-box;
+}
+
+.amc-box-center {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+
+.amc-align-center {
+    -webkit-box-align: center;
+}
+
+.amc-pack-center {
+    -webkit-box-pack: center;
+}
+.amc-color-gray {
+    color: #888;
+}
+.amc-color-white {
+	color: #fff;
+}
+.amc-color-lignt-gray {
+	color: #8f8f95;
+}
+.amc-color-dark {
+    color: #333;
+}
+.amc-color-footnote {
+    color: #a5a5a5;
+}
+.amc-opacity {
+	opacity: 0.79;
+}
+.amc-font-xxs {
+	font-size: 12px;
+}
+.amc-font-l {
+	font-size: 15px;
+}
+.amc-font-xl {
+    font-size: 16px;
+}
+.amc-font-xxxl {
+	font-size: 18px;
+}
+.amc-font-m {
+    font-size: 14px;
+}
+
+.amc-bottom-text {
+	font-size: 12px;
+	color: #fff;
+	opacity: 0.29;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.amc-v-box {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.amc-bg-white {
+    background-color: #fff;
+}
+.amc-bg-dark-blue {
+	background-color: #263753;
+}
+.amc-account-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.amc-text-right {
+    text-align: right;
+}
+.amc-flex-1 {
+    -webkit-box-flex: 1.0;
+}
+
+.amc-1px-line {
+    height: 1PX;
+    background-color: #e5e5e5;
+}
+.amc-v-line {
+	width: 1px;
+    background-color: #e5e5e5;
+}
+.amc-abs-space {
+	margin-top: 20px;
+}
+.amc-cell-height {
+	height: 43px;
+}
+.amc-height-full {
+	height: 100%;
+}
+.amc-card-upper {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	height: 70px;
+	border-radius: 8px;
+	padding: 15px;
+	margin-top: 15px;
+}
+.amc-card-bottom {
+	height: 20px;
+	margin-top: -10px;
+}
+.amc-card-red {
+	background-color:  #ff5561;
+    background-image: -webkit-linear-gradient(left, #ff5561, #f44a81);
+}
+.amc-card-blue {
+    background-color:  #4382be;
+    background-image: -webkit-linear-gradient(left, #4382be, #325ba8);
+}
+.amc-card-green {
+    background-color:  #00b490;
+    background-image: -webkit-linear-gradient(left, #00b490, #009db6);
+}
+.amc-dark-line {
+	height: 1PX;
+	background-color: #000;	
+}
+.amc-font-card-mask {
+	font-size: 26px;
+	font-weight: bold;
+}
+.amc-font-card-mask-limit {
+	font-size: 22px;
+	font-weight: bold;
+}
+.amc-font-card-no {
+	font-size: 20px;
+	font-weight: bold;
+}
+.amc-color-blue {
+    color: #0ae;
+}
+.amc-card-circle {
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+}
+.amc-card-circle-l {
+	height: 36px;
+	width: 36px;
+	border-radius: 18px;
+}
+.amc-card-logo {
+	height: 25px;
+	width: 25px;
+}
+.amc-card-logo-l {
+	height: 28px;
+	width: 28px;
+}
+.amc-no-box {
+	margin-left: 47px;
+	display: -webkit-box;
+	-webkit-box-align: center;
+}
+.amc-scroll {
+	overflow: scroll;
+}
+.amc-card-detail-box {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	padding-left: 10px;
+}
+.amc-line-height {
+	height: 42px;
+}
+.amc-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.amc-insurance-logo {
+    height: 12px;
+    width: 12px;
+}

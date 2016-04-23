@@ -1,0 +1,47 @@
+//
+//  Weibo.pch
+//  LBL_SinaWeibo
+//
+//  Created by apple on 15/10/1.
+//  Copyright © 2015年 LBL. All rights reserved.
+//
+
+#ifndef Weibo_pch
+#define Weibo_pch
+
+
+
+
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+
+
+#import "UIView+extension.h"
+#import "UIView+Inspectable.h"
+#import "UIBarButtonItem+Extension.h"
+#import "LBLUtils.h"
+
+
+//屏幕宽高
+#define SCREENW [UIScreen mainScreen].bounds.size.width
+#define SCREENH [UIScreen mainScreen].bounds.size.height
+
+
+//版本号保存的key
+
+#define KEY_VERSION @"CFBundleShortVersionString"
+
+
+
+
+
+
+
+
+
+#endif /* Weibo_pch */

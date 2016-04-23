@@ -1,0 +1,17 @@
+{
+    "filtername_zh": "菲林",
+    "filtername_en": "Film",
+    "filtername_tw": "菲林",
+    "icon": "filter_icon.png",
+    "isDeletable": "0",
+    "filterid":"112",
+    "vsh": "",
+    "fsh": "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",
+    "textures": [
+                 "film.png",
+                 "vignette1.png",
+                 "vignette2.png",
+                 "overlay.png",
+                 "multiply.png"
+			    ]
+}

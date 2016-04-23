@@ -1,0 +1,77 @@
+{
+    "ext": {
+        "radar_guide": 0
+    },
+    "radar_tab_version": "0",
+    "radar_tab_config": [
+      {
+            "id": "4",
+            "unreadId": "radar_recom",
+            "data_type": "14",
+            "scheme": "",
+            "ids":"4",
+            "auto":"1",
+            "title": "热门|热门|Hot",
+            "icon": {
+                "native_pic": {
+                    "normal": "radar_icon_hot",
+                    "highlight": "radar_icon_hot_selected"                   
+                },
+                "web_pic": {
+                    "normal": "",
+                    "highlight": ""                   
+                }
+            },
+            "tip_desc": "点击雷达，探索周边新鲜事|點擊雷達，探索周邊新鮮事|Tap the Radar to discover interesting things nearby",
+            "loading_desc": "正在探索周边新鲜事...|正在探索周邊新鮮事…|Discovering interesting things nearby…",
+            "sub_loading_desc": "",
+            "load_fail_desc": "暂时没有新内容，请稍后再试|暫時沒有新內容，請稍後再試|No new content currently, please try again later"
+        },
+        {
+            "id": "1",
+            "unreadId": "radar_tv",
+            "data_type": "3",
+            "scheme": "",
+            "auto":"0",
+            "ids":"1",
+            "title": "电视|電視|TV",
+            "icon": {
+                "native_pic": {                    
+                    "normal": "radar_icon_tv",
+                    "highlight": "radar_icon_tv_selected"
+                },
+                "web_pic": {
+                    "normal": "",
+                    "highlight": ""
+                }
+            },
+            "tip_desc": "点击雷达，探索极限精彩|點擊雷達，開始探索|To start the search, click 'radar'",
+            "loading_desc": "正在识别电视节目…|正在識別電視節目…|TV programs are recognizing…",
+            "sub_loading_desc": "",
+            "load_fail_desc": "未能识别到电视节目，请稍后再试|未能識別到電視節目，請稍後再試|Fail to recognize the TV programs,please try again later"
+        },
+        {
+            "id": "2",
+            "unreadId": "radar_card_coupon",
+            "data_type": "14",
+            "scheme": "",
+            "ids":"2",
+            "auto":"1",
+            "title": "优惠|優惠|Coupon",
+            "icon": {
+                "native_pic": {
+                    "normal": "radar_icon_coupon",
+                    "highlight": "radar_icon_coupon_selected"                   
+                },
+                "web_pic": {
+                    "normal": "",
+                    "highlight": ""                   
+                }
+            },
+            "tip_desc": "点击雷达，开始探索|點擊雷達，開始探索|To start the search, click 'radar'",
+            "loading_desc": "正在探索周边优惠…|正在探索周邊優惠..|Coupon are recognizing…",
+            "sub_loading_desc": "",
+            "load_fail_desc": "今日已抢完，明日再来|周邊暫無優惠，敬請期待！|Coupons are coming soon!"
+        }      
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "filtername_zh": "香槟",
+    "filtername_en": "Champagne",
+    "filtername_tw": "香檳",
+    "icon": "filter_icon.png",
+    "isDeletable": "0",
+    "filterid":"102",
+    "vsh": "",
+    "fsh": "b/PtJIdDAKNpOzFO0y1PNW4XRSJ3sENTPfxlkDOgFrXciwb+8nvTKWt89ZKAuWCuWi8m7kmBOr9xDH+GyHXqDuuXDR4lWvZu7BMqdCVBJCDh1gIiQ+CgFrshh06ytxZxcmuW3rEi1j4Ghwx7U0WYoARA7DDTORn2LusV0nE5eP2HNcI+LvcKILDAEpL0SnFA8YAWyA1mg9mm6uz3WLIh2AAU2VBRlc9uklhZ1Hcy1MrTljycPxmrf5BoGfKCT8+lFQ+CDqAS1Fr10tVi00nvueJBLMjA01h8LfNI++D/0aB+iE9qQDYztCKr5vg0UdXbB/RT4TUldBUVJfek98I44wwOYjPv0WYjIIurdAgNdtUJVoYoz1I64XGUiN80wS1+tXivL2YwqqCdHOQ0c0vy8R5Al4uDHABaqLn7NkP/Wuo4hbEafyAiuYqPRuWojFxmeDJAN+lmy8v8/WHwmDsmnrCvvFlyXfm9mYSfAOYaJkBYYKRjgfawhr6iynGryHCX97DYTRnHdf3KwBKneI5417KSq0+W4qE4PHBbybx8sjJEPusE+plBm65WaEKUyTJbk00xUEG2S3mq7244yWi/iMFdU1k8/E+yWr8UlnS8ji7hBMNz3+i4wuk9VOOoHNkhs2WL2EukQBYDe4yQFicYgtFe6aRR44rrM+vv/JKMEL96i0kyAupQw7johR3+1e8mhPFxadYWAezAbzZEQSwsB3mAxWabAcmafz4V/o9HIB2KoC+MrpdQGUYBIG+fPDx5cRU6xAdZzg52CZJd44COEYYYSjA0W71DSWbcDFuucO2zT9yVcLaE8EfItLnNZrHw0CHV3nEriK0H6p9ZS7TNj91fUCGGydvsr6rZdUCqBCqGINoRHn2HXpagxYDTz8xdr8IivSnBZABNnlSx+xewJlw/qS5xxSlHT4Y4TRMtUUp9PSt3MYYsyKHRQ7wIAR0kLAJDNZsoo9Vcy2Z5MEVnihhh3RcFzLNk+VIsspfcym/o/TdW0sLJeUdfB5QPRTGcGDpsizmXYlhLjiunSdA2IpNuufqX4dpDWzKIZUtvJ9MFsAXwD4cGRTb+GTm/674UWl/+qWcYxptHyNi/guzQWK/RVWl6sEzeknfCKhSb0RGNRYC6YKnkJPlUWXa7qmeZ4g7yi8I5i4Qt/slJgFxeieVX1bhjuDDXNl2AhTT0sQBM0ZpRBtnBJbd3GJFnobmriGd3sjb93OZkAx0m4dBIOQsRyHMxvhE7AoXPGnYTtumizbIbuWf/zn7sT7auwKRLcKPbSA2x1c21XHFP2ANYB4KQDY8Lb6SKIlXvMN251krRLpQpqUJXhCGDpbRTBfzh5f0VA9UwtwiqtqXwWmU1sPPW/pWw+aELgmJcjphMQE9WBvdQhT67zu5OK+CjoPo8IIk5CIwXhJcjLW07ZJu1Doo+lKr140g6fJ0kFMN3+llMugXq4le9FEzPtVYOdxPcTtUa+pS14PsbdO8v9X2tZXzNQL2PkFzPXtwgRlyWhMjyhfknveUlR7ymBWz4H/XI1IZYof1Oapg1zXCBbMMImrQHw4TkFQA0dyBJKPqtGImXuvv5MNXwnvRF2QJB82c+6mkrpuAZvA52CaFfFYsRFSp8i/1LrPhuemn37AnhKgrAwM0Kw+gWF7nLtvN7r70qf7Hy2V1Bv8hptTd2FWbjC5p0yjtkb9yQpxGMZ437lpzGtHazStzJcQ6bEl6zCg8ymQoPSjIWM5eKv5rIOzq1kQIogg0ic5ek2E1MqvPutzG1MRm+DBc272OlVUArs/pnm8bXnW8cJUgnv4cr2oCJ7kTl+79hs+43fiLTgpV+Ug/tPMHFu4LgSlAzDh3tPshR526pJecG/geVxWjIsi/+NFle29xa9rCTqYClXk8/oRVkZHpesNIM/00V1VbHGMWf",
+    "textures": [
+                 "amber.png",
+                 "background_a.png",
+                 "blendmap.png",
+                 "amber_adjust.png"
+			    ]
+}

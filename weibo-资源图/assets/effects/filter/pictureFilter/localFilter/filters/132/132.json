@@ -1,0 +1,15 @@
+{
+    "filtername_zh": "莱卡",
+    "filtername_en": "Leica",
+    "filtername_tw": "萊卡",
+    "icon": "filter_icon.png",
+    "isDeletable": "0",
+    "filterid":"132",
+    "vsh": "",
+    "fsh": "b/PtJIdDAKNpOzFO0y1PNW4XRSJ3sENTPfxlkDOgFrWc0LFRvT1pYiJnT0yt9lX8qX+yJavxJQ8Ok/nosZKd73jYSXd/OooNDbiOnII840HVb8FjFjQnfMs2/+o6p5+8eZo3KtlBO9f03q8pJLza2h7cH1rD1T2piJbdVM5RsKpOHDuH+jO3X3Gm1QyV62BXz6Sh48CRcnQgBnw3OgjXuhMKcAfgw0V+VfZ25J105VeA7ta5kJvK/qGBYScZ+IFjdmjYjVg6blldHo+1ar23esOpj+N3NgdfViFNpKBkN5sVm41uEStYmLjoEk8WaLGg+pd1DqnyFvGpGXEOm3tbGWJed52ETiHmYKoE+sCpGHLMflnBfCS890RpcD6PyHqvA1+9BArQiEm8xncpAaktyqcu+M0LsWxaavQRzVXSVOOI0EzpM3XYaSPXNGdaRmLzVKuetUoI4cFba6XsCCCWZAc9RTZTMjPc6gTHV+aA1P5LSuViwOPh5TIqm7ZFHCBmPMP3AIk5eDkcdkV1/WQJ6KG4vdhoSAmIKjOkCKc0NN6d9o784y9OmEfag7mOMEc9TeQ4gaUR0/BaJ4XJLezRPVe61M+VutI81xuyWJW0s5W34Ce2/OmihvP61vbKtjSl/rjPaq6M5YKORAezWmKDTqZJVxo3QTK2dkfPG/IEHyWLygGGPnteIOo178RCofLqvBjhNLNFT4LiLmrUw1jX0AAvzVST/sI+QRflnNI6ZiBFQrdCb+FFUJ0IxDGDY6vW5yrx5vdYl6L+EsykcsVdsw53YkcQPPb2wZgB3iNVp4QxJKuG7fjdKpPw79q3zCM9Yq843uhoC07X8//PhsUYqc6FOFnfzGmJNnP1Y07a4SWgnMyPxctnp2ahThrNam5QBMamnLmzQC/HVedVzLyD28jmrqvOoSjMc/mu6ubT9TcYw4DPD4C+U3xnSwMG9hLnFQXKHO2fRcWk6ruCPi6aI/BTf+6gUwJRwDV+t1vNQyraHVH02ageAe2qimOT8x6XZMy+/1WgKK0NGXOAl7iwJaJTLSfPrHQrfT8llXZLuq7tUF9cRum+HSM6n0ux7wbcxPb+0lJvpcQTiuUBUXN+ASRIEBgTXsH6ZtbX+wcWDbno+b0JXRQDhuBVEdiTAigjzjVBoTiUNqyVfMr392bISwmJBN4HySQKxS4uBnEentAOeXJxXwmoIOZ7Egb6dWnFJPOIvNdOKrGpFWf1plf2UeRmgXJ8mh38NGj0iM6JCzO5XKsilZZBYlmS3Fq2FDYGiLcmb7jWixVnGih80Ra+otWHmXptpH/Yk5Ebt0v/30T6uQAjEAS8kGraGNWdGA7lryQ9VwB2u9Sla6P4hDg+TqV0QYy0CRcGNtUnE+r/Rx/aqKMEVDXmaYG+ygLwBE4LxzVOj9TqCRHZ6jjcHyKjCCj6OeZ/NpkIo8ndLr7DWcKKzGYfHQOWjZ7jW47XIGEj",
+    "textures": [
+                 "leica.png",
+                 "vignette3.png",
+                 "overlay.png"
+			    ]
+}

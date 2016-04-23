@@ -1,0 +1,12 @@
+{
+    "filtername_zh": "市场",
+    "filtername_en": "Market",
+    "filtername_tw": "市場",
+    "icon": "filter_icon.png",
+    "isDeletable": "0",
+    "filterid":"99",
+    "vsh": "",
+    "fsh": "",
+    "textures": [
+			    ]
+}

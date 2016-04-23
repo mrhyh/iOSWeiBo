@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<moudles>
+	<moudle id="800" name="mps" />
+	<moudle id="900" name="image" />
+	<moudle id="901" name="weibo" />
+	<moudle id="902" name="market" />
+	<moudle id="903" name="ad" />
+	<moudle id="904" name="popup" />
+	<moudle id="905" name="focusmedia" />
+	<moudle id="906" name="vparser" />
+	<moudle id="907" name="tuding" />
+	<moudle id="908" name="youxin" />
+</moudles>

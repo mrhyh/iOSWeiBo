@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Bundle-Name: statistic
+Bundle-SymbolicName: statistic
+Export-Class: com.sina.weibo.statistic.business.StatisticInterface
+Bundle-Activator: com.sina.weibo.statistic.business.StatisticActivator

@@ -1,0 +1,14 @@
+{
+    "filtername_zh": "黑白",
+    "filtername_en": "B&W",
+    "filtername_tw": "黑白",
+    "icon": "filter_icon.png",
+    "isDeletable": "0",
+    "filterid":"113",
+    "vsh": "",
+    "fsh": "s/G51xpFbqecNov1eCL+AabgY77GdfJXcxgs1wIrsAqmoZzJSH9BpmxQR2thJqafyk+q1FdXMLkXuYhjZ+ApypDn/fA3GSaVIy3tgyQ+cnhecbPF06MY0fqIX0q+ex5ucZxeyFAP6ft6QmmG8QPuek79vTRe2EUUk8orY4TYDbRdVb3DBkyRg5qD7TBSQccvJnYq+aik+InYt5JJ0QK1qfS8bkd6iffXOMdafmGHKGFpNVQyqSMFidzArYDQoMKFg9Zb/4a3PWl19BqG4erMtL0QUQEJM4N2gmySNcuHZU7+nYjGNbDOK7jDVgNfsS45Kpj6nW8n/SH7LNasxtK+Pmw34Ytdun+L8oFHg0jPhTrAecUw4+870c9yuiJj2ASRVVsNYEaC26Hf1UrTvLGdIZzv+TQmvJnZ/A8zRBptDt0GCauii9NXK955IF0wsBXobRjeFZMHIJ4D6FgQsOQluwFwNJDZn1YhYlcwBCwj3b9sA/g0a4/EIqgI/j7jaBMZ5M2xebtBbUdai29HvNZCA3RGLWmwyLgWDmEzYJhw6uGtvTYb1uBNGGDAZ8tdO7zRRBauAfF6kvnDFNyG+IO/oz0JlxMG7M+TxjlE3Q7o5JOjbGV/cjEG4KP2RyUdy/cSKXo9RB3N4sUXLeaXyahcN0ehjNs0q/Y9CcVasm4dFm++rpp9cL45RT45Z6KKMx+fC4etTS96j5cFGuLSGtGBHHeShTDDiqPtJXotSVVejZEAidPmcL55W59RSbvXghiF/4bdCeBF/lYdAASv6oed4QU3e/H6ZYBj+9Ryj87kl5dc56wDQHPi0aqSOZjnTsD7zbghc9vpcxUEp6ICD2MbvpkPgShTWbs6clFdsRMcDE8ftMDFTvTjhYrtUgib/LJbN+blpT3+wb1Ee9iIu0BHwWMi1YHapnKMG0wwZX9/ji3ieGOSLyso5abhh80AjRKs5yW1a6H89NcGR5hdPkLh35jEZhzQwtMnzV5tvwO0aU9xii8bpALr0STXvVL8Ek+V",
+    "textures": [
+                 "curve.png",
+                 "gradient.png"
+			    ]
+}

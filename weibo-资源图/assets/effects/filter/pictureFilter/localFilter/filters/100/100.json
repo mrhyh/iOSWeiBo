@@ -1,0 +1,12 @@
+{
+    "filtername_zh": "无",
+    "filtername_en": "Original",
+    "filtername_tw": "無",
+    "icon": "filter_icon.png",
+    "isDeletable": "0",
+    "filterid":"100",
+    "vsh": "",
+    "fsh": "",
+    "textures": [
+			    ]
+}

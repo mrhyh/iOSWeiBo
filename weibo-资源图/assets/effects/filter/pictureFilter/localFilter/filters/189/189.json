@@ -1,0 +1,15 @@
+{
+    "filtername_zh": "褪色",
+    "filtername_en": "Fading",
+    "filtername_tw": "褪色",
+    "icon": "filter_icon.png",
+    "isDeletable": "0",
+    "filterid":"189",
+    "vsh": "",
+    "fsh": "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",
+    "textures": [
+                 "fading.png",
+                 "vignette4.png",
+                 "overlay.png"
+			    ]
+}

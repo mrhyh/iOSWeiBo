@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uicodes>
+     <!-- 首页模块 -->
+	<featurecode code="10000001" name="com.sina.weibo.feed.HomeListActivity" />
+	
+	<!-- 趋势模块  -->
+	<featurecode code="10000084" name="com.sina.weibo.page.view.TrendsView" />
+	<featurecode code="10000084" name="com.sina.weibo.page.view.VerticalTrendContainerView" />
+	
+	<!-- 粉丝通模块 -->
+	<featurecode code="10000088" name="com.sina.weibo.feed.view.MBlogListItemView" mode="1"/>
+
+	
+	<!-- 二维码扫描 -->
+	<featurecode code="10000086" name="com.sina.weibo.qrcode.CaptureActivity"/>
+	
+	<!-- 通讯录 -->
+	<featurecode code="10000082" name="com.sina.weibo.ContactsSynActivity"/>
+	
+	<!-- 摇一摇 -->
+	<featurecode code="10000083" name="com.sina.weibo.page.ShakeActivity"/>
+
+	
+	<!-- 搜索模块 -->
+	<featurecode code="10000085" name="com.sina.weibo.page.SearchResultActivity"/>
+	
+	<!-- 雷达模块 -->
+	<featurecode code="10000320" name="com.sina.weibo.radar.RadarMainActivity"/>
+
+</uicodes>

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Bundle-Name: appmarket
+Bundle-SymbolicName: appmarket
+Export-Class: com.sina.weibo.appmarket.utility.AppMarket

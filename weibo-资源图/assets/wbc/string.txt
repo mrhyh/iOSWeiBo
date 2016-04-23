@@ -1,0 +1,16 @@
+# 上传相关字符串
+upload_fail.zh=上传失败
+upload_fail=Fail
+upload_waiting.zh=等待上传...
+upload_waiting=Waiting...
+upload_uploading.zh=正在上传...
+upload_uploading=Uploading...
+upload_queue_empty.zh=所有名片都已上传完成
+upload_queue_empty=All cards have been uploaded completed
+delete.zh=删除
+delete=Delete
+queue.zh=上传队列
+queue=Queue
+
+
+# 拍照相关字符串

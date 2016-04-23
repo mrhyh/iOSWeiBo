@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<surprise_config>
+    <surprise event_id="1022:23059800001" 
+        mask_img="surprise_mask_snow" 
+        back_img="surprise_background_grass,surprise_background_roof,surprise_background_window" 
+        back_thumb="surprise_background_grass_small,surprise_background_roof_small,surprise_background_window_small"
+        title="雪中许愿"/>
+    <!-- <surprise event_id="1022:23059800002" 
+        mask_img="surprise_background1" 
+        back_img="surprise_mask_snow,surprise_background3,surprise_background3" 
+        back_thumb="surprise_mask_snow,surprise_background3_small,surprise_background2_small"
+        title="新年彩蛋"/> -->
+</surprise_config>
+
