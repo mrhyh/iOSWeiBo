@@ -30,8 +30,6 @@
     NSURL *url = [NSURL URLWithString:WeiBoLoginURL];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [webView loadRequest:request];
-
-   
 }
 
 #pragma mark WebView代理方法

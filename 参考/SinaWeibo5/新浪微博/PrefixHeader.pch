@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  控制器的生命周期
+//
+//  Created by 王万杰 on 15/9/17.
+//  Copyright © 2015年 王万杰. All rights reserved.
+//  $(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__ 
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIWindow+Extension.h"
+#import "NSDate+Extension.h"
+#import "NSString+Extension.h"
+#import "NSString+Emoji.h"
+#import "WBTextView+Extension.h"
+#import "WBConst.h"
+
+#ifdef DEBUG //调试阶段
+#define WJLog(...)  NSLog(__VA_ARGS__)
+#else   // 发布阶段
+#define WJLog(...) //NSLog(__VA_ARGS__)
+#endif
+
+// RGB颜色
+#define WBColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/1.0]
+
+// 随机色
+#define WBRandomColor WBColor(arc4random_uniform(256.0), arc4random_uniform(256.0),arc4random_uniform(256.0), 1)
+
+#endif
+
+#endif /* PrefixHeader_pch */

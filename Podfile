@@ -13,7 +13,7 @@ pod 'MJRefresh', '~> 3.1.0'
 pod 'SDWebImage', '~> 3.7.5'
 pod 'MBProgressHUD', '~> 0.9.2'
 pod 'FMDB', '~> 2.6.2'
-pod 'IQKeyboardManager', '~> 4.0.0'
+#pod 'IQKeyboardManager', '~> 4.0.0'
 
 pod "WeiboSDK", :git => "https://github.com/sinaweibosdk/weibo_ios_sdk.git"
 
